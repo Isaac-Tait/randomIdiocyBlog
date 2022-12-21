@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@notionhq/client": "^2.2.3",
-    "astro": "^1.7.2"
+    "astro": "^1.7.2",
+    "astro-imagetools": "^0.6.17"
   }
 }
