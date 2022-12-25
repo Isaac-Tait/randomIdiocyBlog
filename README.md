@@ -27,3 +27,8 @@ Second, how does the href link within `index.astro` at `src > pages` actually li
 Third, the OG code was written in Astro 1.0-beta do I need to use that version?
 
 Fourth, the `api` is also needed to get Table Data too but it is not in the demo section of the site so why is it referencing it outside the demo portion of the repo?
+
+### Helpful Links
+https://astro-notion.vercel.app/posts/Getting-Started-with-Astro-notion-abf4b8e913da4f78af2ab2360ea2c4c7
+
+https://developers.notion.com/docs/create-a-notion-integration
