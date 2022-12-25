@@ -1,0 +1,14 @@
+---
+const { postUrl, post } = Astro.props;
+const pathname = Astro.canonicalURL.pathname;
+const [endpoint] = new URL(postUrl).pathname
+  .split('/')
+  .filter((str) => str.length > 0);
+---
+
+<a class="link" href={pathname + endpoint}>
+  <div class="preview-wrapper">
+    <p class="title">{post.properties.title}</p>
+    <p class="date">{post.date.created}</p>
+  </div>
+</a>

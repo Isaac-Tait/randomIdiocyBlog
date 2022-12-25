@@ -1,31 +1,6 @@
-{/* This code template is for JavaScript and obviously won't work... */}
-import { Client } from "@notionhq/client"
-
-const notion = new Client({ auth: process.env.NOTION_KEY })
-
-const databaseId = process.env.NOTION_DATABASE_ID
-
-async function addItem(text) {
-  try {
-    const response = await notion.pages.create({
-      parent: { database_id: databaseId },
-      properties: {
-        title: {
-          title:[
-            {
-              "text": {
-                "content": text
-              }
-            }
-          ]
-        }
-      },
-    })
-    console.log(response)
-    console.log("Success! Entry added.")
-  } catch (error) {
-    console.error(error.body)
-  }
-}
-
-addItem("Yurts in Big Sur, California")
+<div>
+  <h1>Random Idiocy</h1>
+  <a href="/posts/Random-Idiocy-Blog-2092223f296d4a62919bf9e1f352b32d">
+    <button>My Thoughts</button>
+  </a>
+</div>
