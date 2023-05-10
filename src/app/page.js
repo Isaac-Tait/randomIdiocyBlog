@@ -15,7 +15,7 @@ export default function Home() {
           Read the Blog
         </Link>
         <Link href="/about" className="text-2xl text-yellow-400 hover:text-white">
-          About
+          About Me
         </Link>
       </header>
       <main className="flex flex-col items-center justify-between p-24">
@@ -27,7 +27,7 @@ export default function Home() {
           alt="landon rabago - a great photo of..."
           className="rounded-xl"
         />
-        <h3 className="font-sans">A blog by Landon Rabago</h3>
+        <h3 className="font-sans text-lg">A blog by Landon Rabago</h3>
       </main>
       <div className="fixed bottom-0 w-full">
         <Footer />

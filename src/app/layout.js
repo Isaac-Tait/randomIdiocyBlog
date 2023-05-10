@@ -2,7 +2,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 const myFont = localFont({
-  src: "./myFont.otf",
+  src: "./myFont.ttf",
   display: "swap",
 });
 
