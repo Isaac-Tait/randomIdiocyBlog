@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const heroPatterns = require("tailwindcss-hero-patterns/src/patterns");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -6,6 +8,22 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    heroPatterns: {
+      topography: heroPatterns.topography,
+      food: heroPatterns.ilikefood,
+    },
+    heroPatternsShades: [
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+    ],
+    heroPatternsColors: ["green", "yellow", "gray", "indigo", "purple"],
     extend: {
       fontFamily: {
         sans: ["Ysabeau", "sans-serif"],
@@ -13,5 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-hero-patterns")],
 };

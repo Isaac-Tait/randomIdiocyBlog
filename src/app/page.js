@@ -5,16 +5,16 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen heropattern-food-yellow-400 bg-slate-100 pt-2">
       <header className="flex justify-between px-2 max-w-7xl mx-auto bg-slate-600 rounded-xl font-serif">
         <Link
           href="https://publish.obsidian.md/random-idiocy"
           target="__blank"
-          className="text-2xl"
+          className="text-2xl text-yellow-400 hover:text-white"
         >
           Read the Blog
         </Link>
-        <Link href="/about" target="__blank" className="text-2xl">
+        <Link href="/about" className="text-2xl text-yellow-400 hover:text-white">
           About
         </Link>
       </header>
@@ -25,6 +25,7 @@ export default function Home() {
           height={500}
           width={750}
           alt="landon rabago - a great photo of..."
+          className="rounded-xl"
         />
         <h3 className="font-sans">A blog by Landon Rabago</h3>
       </main>
