@@ -29,7 +29,7 @@ export default function About() {
         width={750}
         className="mx-auto rounded-xl"
       />
-      <div className="font-sans max-w-6xl bg-slate-300 mx-auto py-8 mt-4 rounded-xl shadow-xl">
+      <div className="font-sans max-w-6xl bg-slate-300 mx-auto py-1 md:py-8 mt-4 rounded-xl shadow-xl">
         <p
           className="first-line:uppercase first-line:tracking-widest
                     first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900

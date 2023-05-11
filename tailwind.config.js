@@ -23,7 +23,7 @@ module.exports = {
       "800",
       "900",
     ],
-    heroPatternsColors: ["green", "yellow", "gray", "indigo", "purple", "slate"],
+    heroPatternsColors: ["indigo", "yellow", "gray", "slate", "rose"],
     extend: {
       fontFamily: {
         sans: ["Ysabeau", "sans-serif"],
