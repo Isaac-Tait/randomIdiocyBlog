@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="md:flex items-center justify-between text-sm px-1 font-sans">
+    <div className="md:flex items-center justify-between text-sm px-1 font-sans text-slate-700">
       {/* Copyright */}
       <div className="hidden md:block">
         © {new Date().getFullYear()}, Built with{" "}
@@ -13,8 +13,7 @@ const Footer = () => {
           className="text-indigo-400 hover:text-amber-500"
         >
           Next.js
-        </Link>{" "}
-        &&nbsp;
+        </Link>,{" "}
         <Link
           href="https://tailwindcss.com"
           target="_blank"
@@ -22,8 +21,13 @@ const Footer = () => {
           className="text-indigo-400 hover:text-amber-500"
         >
           TailwindCSS
-        </Link>
-        .
+        </Link>,{" "}
+        <Link
+          href="https://obsidian.md"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-400 hover:text-amber-500"
+        >Obsidian</Link>
       </div>
 
       {/* mountainTopCoding Plug */}

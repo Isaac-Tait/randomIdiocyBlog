@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     heroPatterns: {
-      topography: heroPatterns.topography,
+      random: heroPatterns.randomshapes,
       food: heroPatterns.ilikefood,
     },
     heroPatternsShades: [
@@ -23,7 +23,7 @@ module.exports = {
       "800",
       "900",
     ],
-    heroPatternsColors: ["green", "yellow", "gray", "indigo", "purple"],
+    heroPatternsColors: ["green", "yellow", "gray", "indigo", "purple", "slate"],
     extend: {
       fontFamily: {
         sans: ["Ysabeau", "sans-serif"],
